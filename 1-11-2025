@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    printf("Enter first integer: ");
+    scanf("%d", &a);
+
+    printf("Enter second integer: ");
+    scanf("%d", &b);
+
+    printf("Bitwise AND: %d & %d = %d\n", a, b, a & b);
+    printf("Bitwise OR: %d | %d = %d\n", a, b, a | b);
+    printf("Bitwise XOR: %d ^ %d = %d\n", a, b, a ^ b);
+    printf("Bitwise NOT: ~%d = %d\n", a, ~a);
+
+    return 0;
+}
+
+Output:
+
+Enter first integer: 4
+Enter second integer: 2
+Bitwise AND: 4 & 2 = 0
+Bitwise OR: 4 | 2 = 6
+Bitwise XOR: 4 ^ 2 = 6
+Bitwise NOT: ~4 = -5
