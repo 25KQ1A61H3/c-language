@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+int a,b;
+printf("enter first intger:");
+scanf("%d",&a);
+printf("enter second intger:");
+scanf("%d",&b);
+printf("a>=b:%d\n",a>=b);
+printf("b>=a:%d\n",b>=a);
+    return 0;
+}
+output:
+enter first intger:4
+enter second intger:2
+a>=b:1
+b>=a:0
